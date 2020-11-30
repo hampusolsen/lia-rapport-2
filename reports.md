@@ -1,7 +1,9 @@
-<p align="center">
-  <img src="./resources/logo_ball_black.svg" width="180">
+<p align="center" style="font-size:48px">
+  <a href="https://ecsolutions.se/om-oss/">
+    <img src="./resources/logo_ball_black.svg" width="50%">
+  </a>
   <br/>
-  <a href="https://ecsolutions.se/om-oss/" style="font-size:48px;color:black">EC Solutions</a>
+  EC Solutions
 </p>
 
 <br/>
@@ -340,6 +342,10 @@ Ramverket består av många delar som tillsammans bildar en komplett verktygslå
 
 Efter mycket bollande mellan kunden, UX/UI-designer, och vår egen Tech Lead, kom ett slutgiltig prototyp av appens nya kartvy. Precis som allt annat i kodbasen var även denna vy med sammanhörande komponenter skrivna på ett omodernt, otydligt och ineffektivt sätt. Exempelvis gjordes det onödigt många anrop vid instantiering eftersom att vyn renderades utan att vänta in populering av grundläggande data, och presentationen av tillgängliga bokningstider var inte byggt på ett sätt som gjorde användandet intuitivt. Där fanns alltså skäl till att göra om allt, och med tanke på renoveringens omfattning så kunde vi nu börja avvika från den arkitektur som präglade projektet.
 
+<br>
+
+Även om en ny vy behövdes, både av skäl relaterade till användarvänlighet och kod, och vår Tech Lead haft en aktiv roll med
+
 <br/>
 <br/>
 
@@ -348,7 +354,6 @@ Efter mycket bollande mellan kunden, UX/UI-designer, och vår egen Tech Lead, ko
   <em style="font-size:12px">Prototyper för kartvyns olika tillstånd.</em>
 <p>
 
-<br/>
 <br/>
 
 
