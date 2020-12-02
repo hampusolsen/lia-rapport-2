@@ -1,11 +1,19 @@
-<p align="center" style="font-size:48px">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<p align="center">
   <a href="https://ecsolutions.se/om-oss/">
-    <img src="./resources/logo_ball_black.svg" width="50%">
+    <img src="./resources/logo_horizontal_blue.png" width="80%">
   </a>
-  <br/>
-  EC Solutions
 </p>
 
+<br/>
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
@@ -22,10 +30,8 @@
 + [Veckoindelad Rapportering](#veckoindelad-rapportering)
   + [_Vecka 1_](#vecka-1)
     + [End of Line](#end-of-line)
-    + [Docker](#docker)
   + [_Vecka 2_](#vecka-2)
     + [Analys av Datumsträngar](#analys-av-datumsträngar)
-    + [Windows Terminal](#windows-terminal)
     + [Windows Subsystem for Linux (WSL)](#windows-subsystem-for-linux-wsl)
   + [_Vecka 3_](#vecka-3)
     + [WYSIWYG - What you see is what you get](#wysiwyg---what-you-see-is-what-you-get)
@@ -38,14 +44,8 @@
   + [_Vecka 6_](#vecka-6)
     + [Laravel](#laravel)
   + [_Vecka 7 och 8_](#vecka-7-och-8)
-    + [TLS](#tls)
     + [Floating-point error](#floating-point-error)
-  + [_Vecka 9_](#vecka-9)
-    + [Subtitle](#subtitle)
-  + [_Vecka 10_](#vecka-10)
-    + [Subtitle](#subtitle-1)
-  + [_Vecka 11_](#vecka-11)
-    + [Subtitle](#subtitle-2)
+  + [_Vecka 9 och 10_](#vecka-9-och-10)
 + [Reflektion och Slutsats](#reflektion-och-slutsats)
 
 <br>
@@ -67,14 +67,14 @@
 ## Syfte och Mål 
 <br>
 
-Som en del av programmet Frontendutveckling ingår två LIA-perioder (Lärande i Arbete) som innebär praktiktjänstgöring ute hos företag, med syfte att samla arbetslivserfarenhet innan examination. Både för att få insikt i vad yrkesrollen faktiskt innebär efter skolbänken och att få använda de kunskaper som förvärvats genom utbildningen. Mina mål är att fördjupa mig ytterligare i hela webbutvecklingsprocessens generellt och React-biblioteket specifikt.
+Som en del av programmet Frontendutveckling ingår två LIA-perioder (Lärande i Arbete) som innebär praktiktjänstgöring ute hos företag, med syfte att samla arbetslivserfarenhet innan examination. Både för att få insikt i vad yrkesrollen faktiskt innebär efter skolbänken och att få använda de kunskaper som förvärvats genom utbildningen. Mina mål är att fördjupa mig ytterligare i hela webbutvecklingsprocessen generellt och React-biblioteket specifikt.
 
 <br>
 
 ## Presentationsformat
 <br>
 
-Min rapportering av tiden hos EC Solutions är presenterat veckovis. Varje rapport består av en huvuddel som en omfattande summering av veckan som varit. I slutet av varje veckorapport inkluderas i punktform kortare analyser, reflektioner, diskussioner eller presentationer relevanta till veckan som gått.
+Min rapportering av tiden hos EC Solutions är presenterat veckovis. Varje rapport består av en omfattande summering av veckan som varit. I slutet av varje veckorapport inkluderas under egna rubriker kortare analyser, reflektioner, eller presentationer relevanta till veckan som gått.
 
 Rapporten är skriven i språket [Markdown](https://www.markdownguide.org/getting-started/) som är ett formateringsspråk för textdokument. Till skillnad från textredigeringsprogram som Microsoft Word och Apache Open Office där du ändrar inställningar för formatering genom att klicka på knappar, välja från en rullgardinslista eller kryssa i en checklista, så [används speciella tecken för att definiera formatering](https://www.markdownguide.org/basic-syntax/). Detta är en industristandard för att skriva både dokumentation och rapporter inom, men inte begränsat till, systemutveckling. Formateringen är även populär bland bloggare och författare [eftersom det är plattformsagnostiskt](https://www.markdownguide.org/getting-started/#why-use-markdown), eftersom det i grunden bara är vanlig text.
 
@@ -86,11 +86,13 @@ Två stora fördelar som ofta nämns är just att det går att öppna och redige
 # Frontendutveckling hos EC Utbildning
 <br>
 
-[Kreativitet, glädje och resultat](https://www.ecutbildning.se/om-ec/). Med dessa värdeord som grund strävar EC Utbildning att på bästa sätt förbereda intagna studenter för sina framtida yrkesroller. Genom kontinuerlig utvärdering och revidering av kursplaner och en nära relation till näringslivet kan bolaget försäkra sig om att elever får de kunskaper som efterfrågas i dagsläget. Ett smart drag som oftast leder till kvick anställning efter examen.
+[Kreativitet, glädje och resultat](https://www.ecutbildning.se/om-ec/). Med dessa värdeord som grund strävar EC Utbildning att på bästa sätt förbereda intagna studenter för sina framtida yrkesroller. Genom kontinuerlig utvärdering och revidering av kursplaner och en nära relation till näringslivet kan bolaget försäkra sig om att elever får de kunskaper som efterfrågas i dagsläget. Ett smart drag som oftast leder till snabb anställning efter examen.
+  
+<!-- @todo beskriv programinnehåll- -->
 
 När jag lämnade in en sen anmälan under sommaren 2019 förstod jag inte hur lite jag visste om frontendutveckling, eller hur mycket jag skulle komma att få lära mig under det kommande året. Men vad jag visste efter att jag fick mitt positiva antagningsbesked var att jag verkligen ville dedikera min studietid åt att bli duktig på det. Vad som höll min motivation uppe var att jag konstant utmanades av ett högt men ändå hanterbart tempo, ett relevant kursmaterial och våra föreläsare, både kunniga och roliga.
 
-Efter LIA-perioden var över stod mitt mål oförändrat. Jag ville fortfarande bli så duktig jag möjligtvis kunde bli. Den stora skillnaden var att jag hade en klar bild över både hur lite jag visste, och hur mycket jag faktiskt hade lärt mig.
+**Efter LIA-perioden var över stod mitt mål oförändrat. Jag ville fortfarande bli så duktig jag möjligtvis kunde bli. Den stora skillnaden var att jag hade en klar bild över både hur lite jag visste, och hur mycket jag faktiskt hade lärt mig.**
 
 <!-- @TODO nyfikenhet -> intresse -->
 <!-- @TODO webbutveckling -> systemutveckling -->
@@ -119,9 +121,9 @@ Inhouseavdelningen är mångsysslare som håller på med allt inom webbutvecklin
 # Simplr
 <br>
 
-Företagets affärsidé är att bistå och sköta bland annat frisersalonger där stolar kan bokas av frisörer för att utföra sitt arbete. Detta ger en stor frihet för frisörer som slipper allt ansvar och administration som rör lokaler, betalning och marknadsföring bland annat, i utbyte mot en avgift för varje utförd klippning.
+Företagets affärsidé är att bistå och sköta bland annat ***frisersalonger*** där stolar kan bokas av frisörer för att utföra sitt arbete. Detta ger en stor frihet för frisörer som slipper allt ansvar och administration som rör lokaler, betalning och marknadsföring bland annat, i utbyte mot en avgift för varje utförd klippning.
 
-Projektet jag har varit delaktig i under hela perioden är en progressiv webbapplikation åt det nystartade företaget [Simplr, ett systerbolag till Gents](https://simplr.se/about). Vi arbetade tillsammans med Gents utvecklingslag inför lanseringen av applikationens betaversion och de ansvarar för produktionssättningen av de fixar och funktioner vi implementerar. Projektet och majoriteten av kodbasen på plats när jag kom in i projektet togs över efter en polsk firma som inte hade kunnat leverera i tid. Dessvärre var produkten inte bara långt ifrån färdig, utan det som producerats var undermåligt.
+Projektet jag har varit delaktig i under hela perioden är en progressiv webbapplikation åt det nystartade företaget [Simplr, ett systerbolag till Gents](https://simplr.se/about). Vi arbetade tillsammans med Gents utvecklingslag inför lanseringen av applikationens betaversion och de ansvarar för produktionssättningen av de fixar och funktioner vi implementerar. ***Projektet*** och majoriteten av kodbasen på plats när jag kom in i projektet togs över efter en polsk firma som inte hade kunnat leverera i tid. Dessvärre var produkten inte bara långt ifrån färdig, utan det som producerats var undermåligt.
 
 Där rådde ingen officiellt etablerad arbetsprocess, utan det som gällde var att på snabbast sätt få ut en MVP-version (_Minimum viable product_) av produkten.
 
@@ -144,26 +146,19 @@ _"Kul,"_ tänkte jag direkt.
 
 Måndagen började med att jag, guidad av min handledare, skulle sätta upp utvecklingsmiljön på min dator så att jag kunde tilldelas *tasks* från kanban-brädan på Trello. Eftersom att jag var den enda i arbetslaget som använde operativsystemet Windows fanns där en hel del saker som inte fungerade med konfigurationen av utvecklingsmiljön. Tillsammans med en senior kollega betades fel efter fel av fram tills att vi fått igång både backend och klient. Som bonus kunde vi dessutom dela med till produktägaren och projektledaren vad för slags ändringar av konfigurationen som krävdes. Skulle där i framtiden komma in fler utvecklare med Windows skulle de i så fall inte stöta på samma problem.
 
-Resten av dagen spenderade jag på att sätta mig in i projektets arkitektur eftersom kodens abstraktionsgrad var väldigt hög, vilket var en av orsakerna till dess komplexitet. Exempelvis var komponenternas namngivelser otydliga samtidigt som koden var extremt uppdelad utan att vara generaliserad. Så för att göra något väldigt enkelt var man tvungen att ändra lite kod i väldigt många filer.
+Resten av dagen spenderade jag med att sätta mig in i projektets arkitektur eftersom kodens abstraktionsgrad var väldigt hög, vilket var en av orsakerna till dess komplexitet. Exempelvis var komponenternas namngivelser otydliga samtidigt som koden var extremt uppdelad utan att vara generaliserad. Så för att göra något väldigt enkelt var man tvungen att ändra lite kod i väldigt många filer.
 
-På tisdagen började ta på mig uppgifter från kanban-brädet, och därefter rullade veckan på rätt så bra för min del och bestod mestadels av att skriva enkla algoritmer, fixa buggar och att förbättra användareupplevelsen med hjälp av att implementera ny gränssnittsdesign.
+På tisdagen började jag ta på mig uppgifter från kanban-brädet, och därefter rullade veckan på rätt så bra för min del och bestod mestadels av att skriva enkla algoritmer, fixa buggar och att förbättra användareupplevelsen med hjälp av att implementera ny gränssnittsdesign.
 
-_Frihet under ansvar_; ett talesätt jag kom att tänka på mot slutet på första veckan, vilket kommer att prägla resten av LIA-perioden.
+_Frihet under ansvar_; ett talesätt jag kom att tänka på medan första veckan led mot sitt slut. Ett talesätt som kom att prägla resten av LIA-perioden.
 
 Efter en slitsam vecka med långa dagar så var produkten på fredagen stabil nog att en demo kunde visas upp för slutkunder på måndagen.
 
-<br>
 <br>
 
 ### End of Line
 
 Med _end of line_ syftar man som namnet tyder på en radändelse. Det är viktigt att känna till detta eftersom radändelser fungerar olika på olika system, och kan skapa stora och svårfunna problem exempelvis när ett operativsystem med UNIX-kärna ska köra en shell-fil skriven i ett operativsystem med DOS-kärna.
-
-<br>
-  
-### Docker
-
-<!-- @ TODO -->
 
 <br> 
 <br>
@@ -180,8 +175,7 @@ Genom Ubuntu ökades effektiviteten på Docker-Engine vilket gjorde att jag kund
 <br>
 
 ### Analys av Datumsträngar
-
-`Date.parse()`-metoden som körs när du kallar på deklarerar ett ny instans av `Date`-klassen med ett strängargument, har [ett väldigt inkonsekvent beteende](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse) och fungerar exempelvis annorlunda i Safari jämfört med andra webbläsare. Därför bör alltid `Date`-konstruktorn kallas med nummer-argument för att vara säker på samma resultat oberoende av webbläsare. Fördelen med att göra detta är att webbläsarspecifik felhantering kan utelämnas.
+`Date.parse()`-metoden som körs när ***du kallar på deklarerar*** ett ny instans av `Date`-klassen med ett strängargument, har [ett väldigt inkonsekvent beteende](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse) och fungerar exempelvis annorlunda i Safari jämfört med andra webbläsare. Därför bör alltid `Date`-konstruktorn kallas med nummer-argument för att vara säker på samma resultat oberoende av webbläsare. Fördelen med att göra detta är att webbläsarspecifik felhantering kan utelämnas.
 
 <br>
 
@@ -194,14 +188,7 @@ new Date(1988, 12, 20) // Säker instatiering
  
 <br>
 
-### Windows Terminal
-
-En fantastisk terminal för Windows med anpassningsbara teman, flikar och enkel konfiguration. Gör det betydligt enklare och roligare att arbeta med verktyg som docker, live servrar och versionshanteringssystem simultant.
-
-<br>
-
 ### Windows Subsystem for Linux (WSL)
-
 WSL är ett kompabilitetslager för att kunna exekvera binära Linux-program. Byggt på Hyper-V som är skapat av Microsoft för att kunna skapa virtuella miljöer. Något som bör göras för varje projekt med mer än en tänkt utvecklare. För att konfigurera sin dators resurser som WSL får lov att tillgå så skapar man en `.wslconfig` i sin användarmapp. Begränsas inte dessa resurser kommer den virtuella miljön helt enkelt ta så mycket som finns tillgängligt och reservera detta om det skulle behövas. Något som absolut är fördelaktigt för en server, men inte för en lokal miljö på samma moderkort som utvecklingsarbete sker.
 
 <br>
@@ -221,15 +208,13 @@ swap=<nummer>GB
 ## _Vecka 3_
 <br>
 
-Veckan börjar med en _release lunch_ hos kunden vilket var väldigt trevligt. Särskilt roligt var det att få sätta ansikten på alla involverade i projektet som vi har bollat idéer och problemlöst tillsammans med på distans fram tills nu. En ren social tillställning där vi fick lära känna varandra närmre och diskussion kring jobb aktivt undveks.
+Väl tillbaka på kontoret efter helgen tar en senior kollega upp vissa problem med den nuvarande arbetsprocessen som till stora delar rör sig om Git, men också implementering av saker som översättningar och dynamiskt skapade sidor. Vi bestämmer oss för att ta upp en del åsikter med kunden, för att se hur de prioriterar. Senare i veckan bestäms ett nytt flöde för Git som vi internt inte håller med om är nödvändigt och anser bara bidrar till en mer svårhanterligt flöde, men som vi rättar oss efter. Personligen hade jag ingen åsikt på grund av min bristande erfarenhet gällande Git och de olika arbetsmetodiker kopplade till det, men glädes ändå för den nyligen fastställda processen eftersom det innebar att jag skulle få möjlighet att lära mig ännu mer om Git.
 
-Väl tillbaka på kontoret tar en senior kollega upp vissa problem med den nuvarande arbetsprocessen som till stora delar rör Git, men också implementering av saker som översättningar och dynamiskt skapade sidor. Vi bestämmer oss för att ta upp en del åsikter med kunden, för att se hur de prioriterar. Senare i veckan bestäms ett nytt flöde för Git som vi internt inte håller med om är nödvändigt och anser bara bidrar till en mer svårhanterligt flöde, men som vi rättar oss efter. Personligen hade jag ingen åsikt på grund av min bristande erfarenhet gällande Git och de olika arbetsmetodiker kopplade till det, men glädes ändå för den nyligen fastställda processen eftersom det innebar att jag skulle få möjlighet att lära mig ännu mer om Git.
-
-Det nya arbetsflödet innebar att varje utvecklingslag som kommer att jobba mot samma projekt klonar koden som ligger i produktionsstadiet huvudgren till en egen kodförvaring, hädanefter _repo_ (förkortat från _repository_ som betyder _förvaring_). Efter det klonar var utvecklare själv ned lokalt huvudgrenen för sitt lags repo, och grenar utifrån den när en ny uppgift ska tas an och namnger grenen med typ av uppgift och namnges koncist. Arbetar man exempelvis med att fixa en bug som ska lösa ett problem som uppstår i en betalningsfunktion så kan den heta `fix/payment-handler`. Namnet på grenen är bara viktigt tills det att den förenas med huvudgrenen; när uppgiften anses vara slutförd tas den bort efter förening.
+Det nya arbetsflödet innebar att varje utvecklingslag som kommer att jobba mot samma projekt klonar koden som ligger i produktionsstadiets huvudgren till en egen kodförvaring, hädanefter _repo_ (förkortat från _repository_ som betyder _förvaring_). Efter det klonar var utvecklare själv ned lokalt huvudgrenen för sitt lags repo, och grenar utifrån den när en ny uppgift ska tas an och namnger grenen med typ av uppgift och namnges koncist. Arbetar man exempelvis med att fixa en bug som ska lösa ett problem som uppstår i en betalningsfunktion så kan den heta `fix/payment-handler`. Namnet på grenen är bara viktigt tills det att den förenas med huvudgrenen; när uppgiften anses vara slutförd tas den bort efter förening.
 
 <br>
+<br>
 
-_Exempel på det nya flödets livscykel för en uppgift och utgår från ens lokala huvudgren_
 ```shell
 git checkout -b <namn>
 
@@ -255,10 +240,12 @@ git push origin <namn>
 
 git checkout <huvudgren>
 ```
+_Exempel på det nya flödets livscykel för en uppgift och utgår från ens lokala huvudgren_
 
 <br>
+<br>
 
-Flödet motiverades i slutändan av viljan att ha en helt linjär historik över commits i produktionsträdet, något som används flitigt inom _Open Source_-communityn. Ytterligare ett skäl till att jag blev exalterad över just denna metodiken valdes då jag under ett tag nu varit intresserad av att bidra till diverse projekt.
+Flödet motiverades i slutändan av viljan att ha en helt linjär historik över commits i produktionsträdet, något som används flitigt inom _Open Source_-communityn. Ytterligare ett skäl till att jag blev exalterad över att just denna metodiken valdes då jag under ett tag nu varit intresserad av att bidra till diverse projekt.
 
 <br>
 
@@ -274,15 +261,15 @@ En fras som kanske inte alltid kopplas samman med systemutveckling. I detta fall
 
 Under denna veckan var jag rätt så sjuk tre av dagarna, men eftersom alla jobbar hemifrån gick det ändå bra och jag fick gjort mycket under omständigheterna. Tech Lead sade åt mig att vila om det började kännas för tungt, vilket det ibland gjorde med en rejäl snuva och tung huvudvärk. Dessa stunder lyssnade jag på podcasts eller såg på föreläsningar som hade med programmering att göra, varav två som jag starkt rekommenderat till resten av mina kurskamrater.
 
-Jag spenderade även mycket tid med att övergå till en ny utvecklingsmiljö (_IDE: Integrated Development Environment_), [PhpStorm](https://www.jetbrains.com/phpstorm/), som _out-of-the-box_ är mer lämpat för programmering i språket _PHP_ jämfört med Visual Studio Code vilket jag är van vid. PHP var en sak jag uttryckt intresse av att få sätta mig in i när det ansågs finnas tid till det, eftersom ett populärt ramverk som ofta används är skrivet i just detta. 
+Jag spenderade även mycket tid med att övergå till en ny utvecklingsmiljö (_IDE: Integrated Development Environment_), [PhpStorm](https://www.jetbrains.com/phpstorm/), som _out-of-the-box_ är mer lämpat för programmering i språket _PHP_ jämfört med Visual Studio Code vilket jag är van vid. PHP var en sak jag uttryckt intresse av att få sätta mig in i när det ansågs finnas tid till det. Detta  eftersom ett populärt backendramverk som ofta används är skrivet i just detta språk. 
 
-Att byta till en annan miljö var lite jobbigt eftersom att jag initialt var mycket långsammare och allt var nytt, exempelvis snabbkommandon, gränssnitt och i detta fall även det faktum att jag skulle bli bekväm i en helt ny syntax. I efterhand vet jag inte om bytet var nödvändigt eftersom all funktionalitet finns i Visual Studio Code så länge det konfigurerats korrekt. Samtidigt så skadar det absolut inte med erfarenhet av olika plattformar och det kändes vettigt att konformera sig till PhpStorm när det är en gedigen IDE som dessutom kostar rätt mycket.
+Att byta till en annan miljö var något utmanande eftersom att jag initialt var mycket långsammare och allt var nytt, exempelvis snabbkommandon, gränssnitt och i detta fall även det faktum att jag skulle bli bekväm i en helt ny syntax. I efterhand vet jag inte om bytet var nödvändigt eftersom all funktionalitet finns i Visual Studio Code så länge det konfigurerats korrekt. Samtidigt anser jag det vara nyttigt med mer erfarenhet av olika plattformar och det kändes således ändå vettigt att konformera sig till PhpStorm när det är en gedigen IDE som dessutom kostar rätt mycket.
 
 <br>
 
 ### Clean Code with Uncle Bob
 
-Robert C. Martin, ofta känd som _Uncle Bob_, är en väldigt känd mjukvaruutvecklare och författare. Som en av agil projektmetodiks högst ljudande språkrör, föreläser han i dag om ett gemensamt åtagande gällande att etablera en principiell standard för både etik och moral. Något han menar bör anammas av alla som kallar sig för professionell utvecklare. I flera av sina böcker och [denna samling av föreläsningar](https://www.youtube.com/watch?v=7EmboKQH8lM&t) förklarar han att eftersom denna yrkesroll fortfarande är relativt ung, har vi i detta ämbete inte än blivit direkt relegerade av lagar, vare sig internationella eller nationella. Men att detta kommer ske inom en snar framtid, och det är då bättre om vi själva kommit till ett konsensus gällande den regeluppsättning vi vill förhålla oss till. För att uppnå detta så definierar han alltså flera olika principer som en utvecklare bör förhålla sig till, och kallar denna sammanställning för _ren kod_.
+Robert C. Martin, ofta känd som _Uncle Bob_, är en väldigt känd mjukvaruutvecklare och författare. Som en av agil projektmetodiks högst ljudande språkrör, föreläser han i dag om ett gemensamt åtagande gällande  etablering en principiell standard för både etik och moral; något han menar bör anammas av alla som kallar sig för professionell utvecklare. I flera av sina böcker och [denna samling av föreläsningar](https://www.youtube.com/watch?v=7EmboKQH8lM&t) förklarar han att eftersom denna yrkesroll fortfarande är relativt ung, har vi i detta ämbete inte än blivit direkt relegerade av lagar, vare sig internationella eller nationella. Men att detta kommer ske inom en snar framtid, och det är då bättre om vi själva kommit till ett konsensus gällande den regeluppsättning vi vill förhålla oss till. För att uppnå detta så definierar han alltså flera olika principer som en utvecklare bör förhålla sig till, och kallar denna sammanställning för _ren kod_.
 
 <br>
 
@@ -308,7 +295,7 @@ Genom att introducera parametrar såsom identifikationsnummer och söksträngar 
 
 En simpel förklaring om hur tekniken fungerar är att den agerar som en mellanhand mellan webbapplikationer och nätverk (oftast internet). Genom att fånga all utgående och inkommande kommunikation och spara denna i närminnet kan det blixtsnabbt hämtas vid ett senare tillfälle. På så sätt möjliggörs offline-läge för appen, så att även om datan inte är helt uppdaterad och du inte kan ladda ned ny data så kan fortfarande alla besökta sidor återskapas från cache-minnet.
 
-Ett bra sätt att förstå tekniken på är att läsa [en introduktion till konceptet](https://developers.google.com/web/fundamentals/primers/service-workers) och sedan fortsätta med [dokumentationen på MDN](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) som har flera bra exempel.
+Ett bra sätt att förstå tekniken på är att läsa [denna introduktion till konceptet](https://developers.google.com/web/fundamentals/primers/service-workers) och sedan fortsätta med [dokumentationen på MDN](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) som har flera bra exempel.
 
 <br>
 
@@ -340,67 +327,65 @@ Ramverket består av många delar som tillsammans bildar en komplett verktygslå
 ## _Vecka 7 och 8_
 <br>
 
-Efter mycket bollande mellan kunden, UX/UI-designer, och vår egen Tech Lead, kom ett slutgiltig prototyp av appens nya kartvy. Precis som allt annat i kodbasen var även denna vy med sammanhörande komponenter skrivna på ett omodernt, otydligt och ineffektivt sätt. Exempelvis gjordes det onödigt många anrop vid instantiering eftersom att vyn renderades utan att vänta in populering av grundläggande data, och presentationen av tillgängliga bokningstider var inte byggt på ett sätt som gjorde användandet intuitivt. Där fanns alltså skäl till att göra om allt, och med tanke på renoveringens omfattning så kunde vi nu börja avvika från den arkitektur som präglade projektet.
+Efter mycket bollande mellan kunden, UX/UI-designer, och vår egen Tech Lead, kom ett slutgiltig prototyp av appens nya kartvy. Precis som allt annat i kodbasen var även denna vy med sammanhörande komponenter skrivna på ett omodernt, otydligt och ineffektivt sätt. Exempelvis gjordes det onödigt många anrop vid instantiering eftersom att vyn renderades utan att vänta in populering av grundläggande data, och presentationen av tillgängliga bokningstider var inte byggt på ett sätt som gjorde användningen intuitivt. Där fanns alltså skäl till att göra om allt, och med tanke på renoveringens omfattning så kunde vi nu börja avvika från den arkitektur som präglade projektet.
 
 <br>
-
-Även om en ny vy behövdes, både av skäl relaterade till användarvänlighet och kod, och vår Tech Lead haft en aktiv roll med
-
-<br/>
-<br/>
+<br>
 
 <p align="center">
   <img src="./resources/map-view-prototypes.png" width="80%"><br/>
   <em style="font-size:12px">Prototyper för kartvyns olika tillstånd.</em>
 <p>
 
-<br/>
+<br>
 
-
+Även om en ny vy behövdes, både av skäl relaterade till användarvänlighet och kod, och vår Tech Lead haft en aktiv roll i att ta fram det nya gränssnittet, så var vi inte helt nöjda med prototyperna. Mer specifikt själva rullistan där tillgängliga stolstider visas, och hur den navigeras. Ett exempel är pilen mellan listan och knappen. Vid klick så bläddrar listan till att visa nästa tre tider, och när där inte finns fler att visa så roteras pilen till att peka uppåt. Trycks pilen på igen så bläddras listan som förväntat upp, men pilen roteras då tillbaka till att peka nedåt igen. Så när botten väl är nådd kommer användaren bara att pendla mellan de sex sista tiderna varje gång pilen trycks på. Som tur är går listan också att bläddre i genom vanliga svepgester, upp och ned. En annan lösning som kanske hade varit att föredra är att ha två pilar. En för att bläddra upp och en för ned. Alternativt borde pilen skippats helt och hållet.
 
 <br>
 
-### TLS
-localhost = secure context / SSL => TLS https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts
+I övrigt så bestod arbetet av att bygga en egen kartkomponent runt [Google Maps API:et](https://developers.google.com/maps/documentation/javascript/reference) och [`react-google-maps`-biblioteket](https://www.npmjs.com/package/react-google-maps). Eftersom en väldigt stor del av logiken handlar om att läsa, spara och räkna med koordinater, så fick jag se till att [hitta bra resurser för att kunna göra det](https://www.movable-type.co.uk/scripts/latlong.html). Speciellt den formel som kallas *haversine formula* användes flitigt för att beräkna distansen mellan två positioner på en sfär.
+
+<br>
+
+Även webbläsarens egna [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API) användes för att erskaffa och lyssna på ändringar hos användarens position. Ett problem jag stötte på med Geolocation API:et är att datan endast kan skickas över ett säkert transportslager, [*TLS*](https://sv.wikipedia.org/wiki/Transport_Layer_Security). Hade det inte varit för att vi i lokal utvecklingsmiljö använde oss utav domännamn i stället för `localhost`, hade jag antagligen inte gjort denna anmärkning. För att kringgå problemet var det helt enkelt bara att göra små ändringar i konfigurationsfilerna och sen använda `http://127.0.0.1`, [som erkänns som säkert](https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts#Browser_compatibility).
+
+<br>
 
 ### Floating-point error
-https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html
+Då det som tidigare nämnts räknas mycket med koordinater när det gäller kartor, och dessa är `floats`, alltså flyttal, finns där då ett fenomen man bör vara medveten om som kan ställa till problem. Vilket det också gjorde i vårt fall. På grund av att dessa tal bearbetas av flera olika språk, i vårat fall JavaScript, PHP och SQL, och att dessa inte hanterar flyttal på exakt samma sätt så kan det bli problem där ett flyttal inte är ekvivalent efter det lagrats och sedan hämtats igen ifrån databasen. I vårt fall innebar det att datan för frisersalongerna inte skickades med i svaret. Lösningen på [detta komplexa problem](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html) var, som lösningar ofta är när grunden till problemet väl förståtts, återigen rätt så enkelt. Allt som krävdes var att begränsa antalet decimaler vi använde oss utav. Ett beslut som enkelt kunde tas eftersom vår applikation inte krävde en så stor precision.
 
 <br>
 <br>
 
-## _Vecka 9_
-<br>
-
-Content
-
-<br>
-
-### Subtitle
+<p align="center">
+  <img src="https://imgs.xkcd.com/comics/coordinate_precision.png" width="60%" />
+  <br>
+  <em style="font-size:12px">Relevant xkcd.</em>
+</p>
 
 <br>
 <br>
 
-## _Vecka 10_
+## _Vecka 9 och 10_
 <br>
 
-Content
+Näst sista veckan som rapporteras inledde med mindre korrigeringar för kartvyn. En dålig vana under projektets gång är lansering av uppdateringar på fredagseftermiddagar. Utan testning i någon *staging*-miljö. Något som bjuder in till oförutsägbara beteenden och buggar.
 
-<br>
-
-### Subtitle
+Utöver det ägnades den sista tiden till största del åt ytterligare en stor uppgift. En total omarbetning av sök- och filtreringssidan för tillgängliga klipptider. Precis som i föregående uppgift med kartvyn så fanns där mockups för UI, och planen var att skriva om till funktionskomponenter och att använda *hooks*. Dock så var mycket av beteenden och funktionalitet inte tydligt definierat, och fick därför efterfrågas för att kunna skriva koden. Ett par gånger ändrades även rätt så grundläggande krav vilket resulterade i en del omskrivningar av logik.
 
 <br>
 <br>
 
-## _Vecka 11_
+<p align="center">
+  <img src="./resources/filter-view-prototypes.png" />
+  <br>
+  <em style="font-size:12px">Prototyper för sök- och filtreringsvyn.</em>
+</p>
+
+<br>
 <br>
 
-Content
-
-<br>
-
-### Subtitle
+Det bestämdes även att vi skulle gå över till att använda [Material UI](https://material-ui-pickers.dev/getting-started/installation):s moduler för val av tid och datum. Ett väldigt  Att införa Material UI är ett val som tog vår total av olika kalenderbibliotek till tre stycken, i en redan väldigt spretig `package.json`-fil. Just nu finns där inga uttalade planer för att banta bort de tidigare implementationerna, men det är något jag antar kommer göras i framtiden. 
 
 <br>
 <br>
