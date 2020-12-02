@@ -46,7 +46,8 @@
   + [_Vecka 7 och 8_](#vecka-7-och-8)
     + [Floating-point error](#floating-point-error)
   + [_Vecka 9 och 10_](#vecka-9-och-10)
-+ [Reflektion och Slutsats](#reflektion-och-slutsats)
++ [Diskussion](#diskussion)
++ [Slutsats](#slutsats)
 
 <br>
 <br>
@@ -371,7 +372,7 @@ Då det som tidigare nämnts räknas mycket med koordinater när det gäller kar
 
 Näst sista veckan som rapporteras inledde med mindre korrigeringar för kartvyn. En dålig vana under projektets gång är lansering av uppdateringar på fredagseftermiddagar. Utan testning i någon *staging*-miljö. Något som bjuder in till oförutsägbara beteenden och buggar.
 
-Utöver det ägnades den sista tiden till största del åt ytterligare en stor uppgift. En total omarbetning av sök- och filtreringssidan för tillgängliga klipptider. Precis som i föregående uppgift med kartvyn så fanns där mockups för UI, och planen var att skriva om till funktionskomponenter och att använda *hooks*. Dock så var mycket av beteenden och funktionalitet inte tydligt definierat, och fick därför efterfrågas för att kunna skriva koden. Ett par gånger ändrades även rätt så grundläggande krav vilket resulterade i en del omskrivningar av logik.
+Utöver det ägnades den sista tiden till största del åt ytterligare en stor uppgift. En total omarbetning av sök- och filtreringssidan för tillgängliga klipptider. Precis som i föregående uppgift med kartvyn så fanns där mockups för UI, och planen var att skriva om till funktionskomponenter och att använda *hooks*. Även här vävde jag in URL-driven rendering så att det går att länka till specifika sökningar. Dock så var beteenden och funktionalitet inte tydligt definierada, och jag fick därför vid ett flertel tillfällen efterfråga dessa. Ett par gånger ändrades även rätt så grundläggande krav vilket resulterade i en del omskrivningar av logik.
 
 <br>
 <br>
@@ -385,9 +386,99 @@ Utöver det ägnades den sista tiden till största del åt ytterligare en stor u
 <br>
 <br>
 
-Det bestämdes även att vi skulle gå över till att använda [Material UI](https://material-ui-pickers.dev/getting-started/installation):s moduler för val av tid och datum. Ett väldigt  Att införa Material UI är ett val som tog vår total av olika kalenderbibliotek till tre stycken, i en redan väldigt spretig `package.json`-fil. Just nu finns där inga uttalade planer för att banta bort de tidigare implementationerna, men det är något jag antar kommer göras i framtiden. 
+Det bestämdes även att vi skulle gå över till att använda [Material UI](https://material-ui-pickers.dev/getting-started/installation):s moduler för val av tid och datum. Att införa Material UI är ett val som tog vår total av olika kalenderbibliotek till tre stycken, i en redan väldigt spretig `package.json`-fil. Just nu finns där inga uttalade planer för att banta bort de tidigare implementationerna, men det är något jag antar kommer att göras i framtiden.
+
+Uppgiften innebar väldigt mycket logik. Allt från sortering och filtrering, till datastrukturering och optimering. För all denna logik krävs mycket kod. Så för att smalna av komponenterna som hanterar renderingen så mycket som möjligt, skapade jag flera skräddarsydda hooks för att separera de två åt. En är jag särskilt stolt över och kommer bära den med mig till framtida projekt, med mindre justeringar. Det är en enkel men användbar hook som hämtar och alternativt lyssnar på positionsändringar hos användarens enhet. Den returnerar sedan antingen ett objekt med koordinater eller `undefined` om de inte skulle gå att hämta, eller om användaren nekar åtkomst till funktionen.
 
 <br>
 <br>
 
-# Reflektion och Slutsats
+```typescript
+import { useEffect, useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { RootState } from '../../modules/state';
+import { GeolocationActions } from '../../modules/Geolocation/actions';
+
+interface UseGeolocationOptions {
+    watchPosition: boolean;
+    positionOptions: PositionOptions;
+}
+
+const defaultOptions: UseGeolocationOptions = {
+    watchPosition: false,
+    positionOptions: {
+        timeout: 5000,
+        enableHighAccuracy: true,
+    },
+};
+
+export const useGeolocation = ({
+    watchPosition,
+    positionOptions,
+} = defaultOptions) => {
+    const [watcherId, setWatcherId] = useState<number>();
+    const dispatch = useDispatch();
+    const userPosition = useSelector(
+        (state: RootState) => state.userPosition.coords,
+    );
+
+    function saveUserPosition(coords: Coordinates) {
+        dispatch(
+            GeolocationActions.getUserPositionSuccess({
+                coords: {
+                    lat: coords.latitude,
+                    lng: coords.longitude,
+                },
+            }),
+        );
+    }
+
+    function onGetCurrentSuccess({ coords }: Position) {
+        saveUserPosition(coords);
+
+        if (watchPosition) {
+            const watcherId = navigator.geolocation.watchPosition(
+                ({ coords }: Position) => {
+                    saveUserPosition(coords);
+                },
+            );
+
+            setWatcherId(watcherId);
+        }
+    }
+
+    function onError() {}
+
+    useEffect(() => {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(
+                onGetCurrentSuccess,
+                onError,
+                positionOptions,
+            );
+        }
+
+        return () => {
+            if (watcherId) navigator.geolocation.clearWatch(watcherId);
+        };
+    }, []);
+
+    return userPosition;
+};
+
+```
+
+<br>
+<br>
+
+När den nya vyn var färdig att testas av kund så var vi tydliga från vårt håll med att den inte skulle produktionssättas direkt, utan testas av flera personer för att se så användandet är exakt som önskat. Speciellt med tanke på hur otydlig kommunikationen har varit kring just det. Medan feedback inväntades så arbetade jag vidare med optimering, tydlig namngivning och att dela upp kod på ett logiskt sätt.
+
+<br>
+<br>
+
+# Diskussion
+<br>
+
+<br>
+
+# Slutsats
