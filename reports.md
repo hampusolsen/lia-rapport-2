@@ -94,6 +94,11 @@ De specifika målen med denna kurs tagna direkt ur kursmålsdokumentet:
 - Utveckla professionellt förhållningssätt till sitt kommande yrke genom direkta erfarenheter i arbetslivet. 
 
 
+
+<br>
+
+[*Till innehållsförteckningen*](#innehållsförteckning)
+
 <br>
 <br>
 
@@ -106,6 +111,11 @@ Rapporten är skriven i språket [Markdown](https://www.markdownguide.org/gettin
 
 Två stora fördelar som ofta nämns är just att det går att öppna och redigera Markdown-filer i vilket textredigeringsprogram som helst, eftersom det bara är ren text, till skillnad från exempelvis filer skapade med Microsoft Word (.docx) eller Apache OpenOffice (.odt). Markdown stöds även helt eller delvis i webbapplikationer som exempelvis [Slack](https://www.markdownguide.org/tools/slack/) och [stackoverflow](https://stackoverflow.com/).
 
+
+<br>
+
+[*Till innehållsförteckningen*](#innehållsförteckning)
+
 <br>
 <br>
 
@@ -115,6 +125,11 @@ Två stora fördelar som ofta nämns är just att det går att öppna och redige
 [Kreativitet, glädje och resultat](https://www.ecutbildning.se/om-ec/). Med dessa värdeord som grund strävar EC Utbildning att på bästa sätt förbereda intagna studenter för sina framtida yrkesroller. Genom kontinuerlig utvärdering och revidering av kursplaner och en nära relation till näringslivet kan bolaget försäkra sig om att elever får de kunskaper som efterfrågas i dagsläget. Ett smart drag som oftast leder till snabb anställning efter examen.
 
 När jag lämnade in en sen anmälan under sommaren 2019 förstod jag inte hur lite jag visste om frontendutveckling, eller hur mycket jag skulle komma att få lära mig under det kommande året. Men vad jag visste efter att jag fick mitt positiva antagningsbesked var att jag verkligen ville dedikera min studietid åt att bli duktig på det. Vad som höll min motivation uppe detta gångna år var att jag konstant utmanades av ett högt men ändå hanterbart tempo, ett relevant kursmaterial och våra föreläsare, både kunniga och roliga.
+
+
+<br>
+
+[*Till innehållsförteckningen*](#innehållsförteckning)
 
 <br>
 <br>
@@ -134,6 +149,11 @@ Citatet ovan återfinns på [EC Solutions hemsida](http://www.ecsolutions.se/). 
 
 Inhouseavdelningen är mångsysslare som håller på med allt inom webbutveckling, maskininlärning och hårdvaruutveckling samt 3D-utskrift. Det sistnämnda har använts för att exempelvis [donera skyddsskärmar](https://www.linkedin.com/feed/update/urn:li:activity:6654020438877847552/) åt sjukvården.
 
+
+<br>
+
+[*Till innehållsförteckningen*](#innehållsförteckning)
+
 <br>
 <br>
 
@@ -145,6 +165,11 @@ Företagets affärsidé är att bistå och sköta bland annat frisersalonger dä
 Projektet jag har varit delaktig i under hela perioden är en progressiv webbapplikation åt det nystartade företaget,  [ett systerbolag till Gents](https://simplr.se/about). Vi arbetade tillsammans med Gents utvecklingslag inför lanseringen av applikationens betaversion och de ansvarar för produktionssättning av den kod vi implementerar. Majoriteten av kodbasen på plats när jag kom in i projektet togs över efter en polsk firma. Dessvärre var produkten inte bara långt ifrån färdig, utan det som hade producerats var också undermåligt.
 
 Där rådde initialt ingen officiellt etablerad arbetsprocess, utan det som gällde var helt enkelt att leverera en MVP-version (_Minimum viable product_) av produkten.
+
+
+<br>
+
+[*Till innehållsförteckningen*](#innehållsförteckning)
 
 <br>
 <br>
