@@ -22,8 +22,15 @@
 <br/>
 <br/>
 
-# LIA 1, Webbutveckling <!-- omit in toc -->
+ <!-- omit in toc -->
+# LIA 1, Webbutveckling
+<br>
 
+<!-- omit in toc -->
+## Innehållsförteckning
+<br>
+
++ [LIA 1, Webbutveckling](#lia-1-webbutveckling)
 + [Inledning](#inledning)
   + [Kursmål](#kursmål)
   + [Presentationsformat](#presentationsformat)
@@ -32,22 +39,23 @@
 + [Simplr](#simplr)
 + [Veckoindelad Rapportering](#veckoindelad-rapportering)
   + [_Vecka 1_](#vecka-1)
-    + [End of Line](#end-of-line)
+    + [Veckans Lärdommar](#veckans-lärdommar)
+      + [End of Line](#end-of-line)
   + [_Vecka 2_](#vecka-2)
-    + [Analys av Datumsträngar](#analys-av-datumsträngar)
-    + [Windows Subsystem for Linux (WSL)](#windows-subsystem-for-linux-wsl)
+      + [Analys av Datumsträngar](#analys-av-datumsträngar)
+      + [Windows Subsystem for Linux (WSL)](#windows-subsystem-for-linux-wsl)
   + [_Vecka 3_](#vecka-3)
-    + [WYSIWYG - What you see is what you get](#wysiwyg---what-you-see-is-what-you-get)
+      + [WYSIWYG - What you see is what you get](#wysiwyg---what-you-see-is-what-you-get)
   + [_Vecka 4_](#vecka-4)
-    + [Clean Code with Uncle Bob](#clean-code-with-uncle-bob)
-    + [Deep Dive into Git](#deep-dive-into-git)
+      + [Clean Code with Uncle Bob](#clean-code-with-uncle-bob)
+      + [Deep Dive into Git](#deep-dive-into-git)
   + [_Vecka 5_](#vecka-5)
-    + [Service Worker](#service-worker)
-    + [Web Application Manifest](#web-application-manifest)
+      + [Service Worker](#service-worker)
+      + [Web Application Manifest](#web-application-manifest)
   + [_Vecka 6_](#vecka-6)
-    + [Laravel](#laravel)
+      + [Laravel](#laravel)
   + [_Vecka 7 och 8_](#vecka-7-och-8)
-    + [Floating-point error](#floating-point-error)
+      + [Floating-point error](#floating-point-error)
   + [_Vecka 9 och 10_](#vecka-9-och-10)
 + [Diskussion](#diskussion)
 + [Utvärdering och Sammanfattning](#utvärdering-och-sammanfattning)
@@ -166,11 +174,19 @@ _Frihet under ansvar_. Ett talesätt jag kom att tänka på medan första veckan
 
 <br>
 
-### End of Line
+ <!-- omit in toc -->
+### Veckans Lärdommar
+<br>
+
+#### End of Line
 
 Med _end of line_ syftar man på, som namnet tyder, en radändelse. Det är viktigt att känna till detta eftersom radändelser fungerar olika på olika system, och kan skapa stora och svårfunna problem exempelvis när ett operativsystem med UNIX-kärna ska köra en shell-fil skriven i ett operativsystem med DOS-kärna.
 
 <br> 
+
+[*Till innehållsförteckningen*](#innehållsförteckning)
+
+<br>
 <br>
 
 ## _Vecka 2_
@@ -184,7 +200,11 @@ Genom Ubuntu ökades effektiviteten på Docker-Engine vilket gjorde att jag kund
 
 <br>
 
-### Analys av Datumsträngar
+<!-- omit in toc -->
+### Veckans Lärdommar 
+<br>
+
+#### Analys av Datumsträngar
 `Date.parse()`-metoden som körs när ***du kallar på deklarerar*** ett ny instans av `Date`-klassen med ett strängargument, har [ett väldigt inkonsekvent beteende](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse) och fungerar exempelvis annorlunda i Safari jämfört med andra webbläsare. Därför bör alltid `Date`-konstruktorn kallas med nummer-argument för att vara säker på samma resultat oberoende av webbläsare. Fördelen med att göra detta är att webbläsarspecifik felhantering kan utelämnas.
 
 <br>
@@ -198,7 +218,7 @@ new Date(1988, 12, 20) // Säker instatiering
  
 <br>
 
-### Windows Subsystem for Linux (WSL)
+#### Windows Subsystem for Linux (WSL)
 WSL är ett kompabilitetslager för att kunna exekvera binära Linux-program. Byggt på Hyper-V som är skapat av Microsoft för att kunna skapa virtuella miljöer. Något som bör göras för varje projekt med mer än en tänkt utvecklare. För att konfigurera sin dators resurser som WSL får lov att tillgå så skapar man en `.wslconfig` i sin användarmapp. Begränsas inte dessa resurser kommer den virtuella miljön helt enkelt ta så mycket som finns tillgängligt och reservera detta om det skulle behövas. Något som absolut är fördelaktigt för en server, men inte för en lokal miljö på samma moderkort som utvecklingsarbete sker.
 
 <br>
@@ -211,6 +231,10 @@ memory=<nummer>GB
 processors=<nummer>
 swap=<nummer>GB
 ```
+
+<br>
+
+[*Till innehållsförteckningen*](#innehållsförteckning)
 
 <br>
 <br>
@@ -259,12 +283,21 @@ Flödet motiverades i slutändan av viljan att ha en helt linjär historik över
 
 <br>
 
-### WYSIWYG - What you see is what you get
+<!-- omit in toc -->
+### Veckans Lärdommar
+<br>
+
+#### WYSIWYG - What you see is what you get
 
 En fras som kanske inte alltid kopplas samman med systemutveckling. I detta fall handlar det om ett textredigeringsverktyg i ett innehållshanteringssystem (_CMS: Content Management System_), som låter en användare redigera text likt Microsoft Word, Apache OpenOffice eller Libre Office. All formatering, som typsnitt, teckenstorlek och stil, konverteras direkt till HTML och CSS och lagras i en databas för att sedan hämtas som innehåll till en av sidorna i en webbapplikation till exempel.
 
 <br>
+
+[*Till innehållsförteckningen*](#innehållsförteckning)
+
 <br>
+<br>
+
 
 ## _Vecka 4_ 
 <br>
@@ -277,15 +310,23 @@ Att byta till en annan miljö var något utmanande eftersom att jag initialt var
 
 <br>
 
-### Clean Code with Uncle Bob
+<!-- omit in toc -->
+### Veckans Lärdommar
+<br>
+
+#### Clean Code with Uncle Bob
 
 Robert C. Martin, ofta känd som _Uncle Bob_, är en väldigt känd mjukvaruutvecklare och författare. Som en av agil projektmetodiks högst ljudande språkrör, föreläser han i dag om ett gemensamt åtagande gällande  etablering en principiell standard för både etik och moral; något han menar bör anammas av alla som kallar sig för professionell utvecklare. I flera av sina böcker och [denna samling av föreläsningar](https://www.youtube.com/watch?v=7EmboKQH8lM&t) förklarar han att eftersom denna yrkesroll fortfarande är relativt ung, har vi i detta ämbete inte än blivit direkt relegerade av lagar, vare sig internationella eller nationella. Men att detta kommer ske inom en snar framtid, och det är då bättre om vi själva kommit till ett konsensus gällande den regeluppsättning vi vill förhålla oss till. För att uppnå detta så definierar han alltså flera olika principer som en utvecklare bör förhålla sig till, och kallar denna sammanställning för _ren kod_.
 
 <br>
 
-### Deep Dive into Git
+#### Deep Dive into Git
 
 NDC Conferences är en organisation som fokuserar på att erbjuda föreläsningar med högkvalitativt innehåll relaterat för utvecklare inom alla olika system. Just i Oslo, 2017, höll Edward Thompson [en omtalad sådan](https://www.youtube.com/watch?v=fBP18-taaNw) som ofta rekommenderas för att som ny till Git och versionshanteringssystem få en djupare inblick i vad som faktiskt händer när man skriver Git-kommandon.
+
+<br>
+
+[*Till innehållsförteckningen*](#innehållsförteckning)
 
 <br>
 <br>
@@ -301,7 +342,11 @@ Genom att introducera parametrar såsom identifikationsnummer och söksträngar 
 
 <br>
 
-### Service Worker
+<!-- omit in toc -->
+### Veckans Lärdommar
+<br>
+
+#### Service Worker
 
 En simpel förklaring om hur tekniken fungerar är att den agerar som en mellanhand mellan webbapplikationer och nätverk (oftast internet). Genom att fånga all utgående och inkommande kommunikation och spara denna i närminnet kan det blixtsnabbt hämtas vid ett senare tillfälle. På så sätt möjliggörs offline-läge för appen, så att även om datan inte är helt uppdaterad och du inte kan ladda ned ny data så kan fortfarande alla besökta sidor återskapas från cache-minnet.
 
@@ -309,9 +354,13 @@ Ett bra sätt att förstå tekniken på är att läsa [denna introduktion till k
 
 <br>
 
-### Web Application Manifest
+#### Web Application Manifest
 
 För att en PWA ska vara installerbar krävs en fil som i breda drag beskriver applikationen. Där finns olika filformat denna konfiguration kan skrivas i, där det är vanligast att i ett projekts rotmapp skapa en `manifest.json`-fil. Anmärkningsvärt så skriver W3C att [den officiella filändelsen är `.webmanifest`](https://www.w3.org/TR/appmanifest/#using-a-link-element-to-link-to-a-manifest), vilket är betydligt ovanligare. [En intressant diskussionstråd på GitHub](https://github.com/w3c/manifest/issues/689#issuecomment-396822052) tar upp vissa punkter kring skillnaderna mellan de två.
+
+<br>
+
+[*Till innehållsförteckningen*](#innehållsförteckning)
 
 <br>
 <br>
@@ -327,9 +376,17 @@ Efter en del orientering hade jag funnit var och vad jag behövde för att genom
 
 <br>
 
-### Laravel
+<!-- omit in toc -->
+### Veckans Lärdommar
+<br>
+
+#### Laravel
 
 Ramverket består av många delar som tillsammans bildar en komplett verktygslåda för att bygga webbapplikationer. I stark kontrast mot exempelvis [Express](http://expressjs.com/), så kräver Laravel att man tar efter de principer och den metodik som främjas. Går man ifrån det utstakade arbetssättet så blir det väldigt rörigt, något jag fick uppleva i detta projektet. Däremot har jag också fått ta del av hur modulärt och underhållbart det kan vara.
+
+<br>
+
+[*Till innehållsförteckningen*](#innehållsförteckning)
 
 <br>
 <br>
@@ -362,7 +419,11 @@ I övrigt så bestod arbetet av att bygga en egen kartkomponent runt [Google Map
 
 <br>
 
-### Floating-point error
+<!-- omit in toc -->
+### Veckans Lärdommar 
+<br>
+
+#### Floating-point error
 Då det som tidigare nämnts räknas mycket med koordinater när det gäller kartor, och dessa är `floats`, alltså flyttal, finns där då ett fenomen man bör vara medveten om som kan ställa till problem. Vilket det också gjorde i vårt fall. På grund av att dessa tal bearbetas av flera olika språk, i vårat fall JavaScript, PHP och SQL, och att dessa inte hanterar flyttal på exakt samma sätt så kan det bli problem där ett flyttal inte är ekvivalent efter det lagrats och sedan hämtats igen ifrån databasen. I vårt fall innebar det att datan för frisersalongerna inte skickades med i svaret. Lösningen på [detta komplexa problem](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html) var, som lösningar ofta är när grunden till problemet väl förståtts, återigen rätt så enkelt. Allt som krävdes var att begränsa antalet decimaler vi använde oss utav. Ett beslut som enkelt kunde tas eftersom vår applikation inte krävde en så stor precision.
 
 <br>
@@ -373,6 +434,10 @@ Då det som tidigare nämnts räknas mycket med koordinater när det gäller kar
   <br>
   <em style="font-size:12px">Relevant xkcd.</em>
 </p>
+
+<br>
+
+[*Till innehållsförteckningen*](#innehållsförteckning)
 
 <br>
 <br>
@@ -487,6 +552,10 @@ export const useGeolocation = ({
 När den nya vyn var färdig att testas av kund så var vi tydliga från vårt håll med att den inte skulle produktionssättas direkt, utan testas för att se så användandet var som önskat. Detta, främst med tanke på att denna vy är en av applikationens mer centrala delar och kommunikationen inte varit tydlig. Medan feedback inväntades så arbetade jag vidare med optimering, namngivning och att dela upp kod på ett logiskt sätt.
 
 <br>
+
+[*Till innehållsförteckningen*](#innehållsförteckning)
+
+<br>
 <br>
 
 # Diskussion
@@ -494,7 +563,7 @@ När den nya vyn var färdig att testas av kund så var vi tydliga från vårt h
 
 En av de absolut mest vitala delar i ett företag, oavsett bransch, är kommunikation. Systemutveckling är inget undantag. [Kommunikation inom företagande brukar delas upp i två kategorier](https://keydifferences.com/difference-between-internal-and-external-communication.html); både en intern och en extern dialog fördes kontinuerligt under hela perioden. Var kategori av kommunikation kan också föras i flera riktningar, och i varierad ton. Ett faktum som varken överraskade eller gjorde mig obekväm, då jag har mycket kommunikativ erfarenhet från tidigare yrkesroller. Det som däremot var helt nytt för mig var hur det används inom denna bransch, och speciellt hos EC Solutions.
 
-Någonting jag kontiuerligt tänkt på har varit just tidsestimering; jag har ofta försökt ge en så exakt tidsram för mina uppgifter som jag har kunnat, baserat på att allt kommer flyta på väl och jag inte stöter på några problem. Men framtiden är ofta oförutsägbar. Det kan dyka upp saker utanför ens kontroll, något man glömt räkna med, eller så presterar man helt enkelt inte alltid till ens fulla kapacitet. Att estimera optimistiskt är [ett drag jag inte är ensam om](https://apps.dtic.mil/dtic/tr/fulltext/u2/a047747.pdf), men som ändå riskerar att ha reflekterat illa på EC Solutions, vilka jag representerade under min tid där.
+Någonting jag kontiuerligt tänkt på har varit just tidsestimering; jag har ofta försökt ge en så exakt tidsram för mina uppgifter som jag har kunnat, baserat på att allt kommer flyta på väl och jag inte stöter på några problem. Men framtiden är ofta oförutsägbar. Det kan dyka upp saker utanför ens kontroll, något man glömt räkna med, eller så presterar man helt enkelt inte alltid till ens fulla kapacitet. Att estimera optimistiskt är [ett drag jag inte är ensam om](https://apps.dtic.mil/dtic/tr/fulltext/u2/a047747.pdf), men som ändå riskerar att ge ett dåligt intryck.
 
 I mina tidigare yrkesroller har det nästan alltid varit betydligt viktigare att ge kunder ett positivt och snabbt svar, mer än ett korrekt. Det är till och med något som har uppmanats. För det har i det långa loppet varit betydligt mer givande, samtidigt som det ofta har funnits enkla och logiska ursäkter att försvara sig med om något gick fel. Exempelvis som att en produkt har restat hos en leverantör eller att man har fått felaktig information. Men under denna LIA-perioden har jag successivt förstått att det är inte ett beteende som ligger i linje med företagets kultur, eller den bild de vill visa utåt. Självfallet är det fortfarande alltid önskvärt att kunna ge ett positivt och snabbt svar, men inte på bekostnad av korrekthet. Skulle en osäker respons ges så bör detta göras på ett tydligt och transparent sätt, efter att först ha diskuterats internt. Detsamma gäller med att ställa frågor till kund. I stället för att direkt gå till kunden så är det betydligt bättre att ställa frågan inom företaget först, eftersom chansen finns att det är någon som redan vet svaret. Kanske har frågan redan besvarats tidigare, vilket skulle ge sken av att vi inte för någon horisontell dialog, eller att vi inte skulle haft läget under kontroll. Något som skulle kunna skapa en olustig känsla hos kunden, eller rent av förminska vårt förtroende hos dem.
 
@@ -503,16 +572,24 @@ Genom ett aktivt deltagande i och reflektion över kommunikationen så har jag p
 Däremot har jag inte fördjupat mig ytterligare i React-biblioteket, vilket var ett av mina två personliga mål, även om arbetet har gjort mig betydligt mer säker i implementeringen av det. Men med tanke på hur mycket annat jag lärt mig om utveckling generellt så har jag valt att inte se det som en förlust, utan endast som en annorlunda seger.
 
 <br>
+
+[*Till innehållsförteckningen*](#innehållsförteckning)
+
+<br>
 <br>
 
 # Utvärdering och Sammanfattning
 <br>
 
-Överlag har jag varit väldigt nöjd med min praktiktjänst och känner att min upplevelse har varit en perfekt schans att verkligen få känna på hur livet som webbutvecklare är. Redan första veckan började jag känna mig som en anställd och efter en kort tid därefter även att jag blev behandlad som en. Detta har varit något som jag gladeligen accepterat, men kan ändå inte undgå en något bitterljuv känsla av att min tid som student nått sitt slut. Sedan jag påbörjade detta programmet så har jag efter varje avklarad uppgift sett till att repetera den flera gånger. För varje repetition har jag lärt mig något nytt och känner att det varit en av de största bidragande faktorerna till att jag står där jag gör i dag. Under LIA-perioden har jag inte haft chans till detta eftersom pressen att ta en ny uppgift på sig när en annan är färdig alltid funnits där. Inte på ett dåligt sätt, utan mest bara för att det inte är ekonomiskt försvarbart inför kund att göra om något som faktiskt fungerar, och gör det väl, bara för att försöka uppnå något som är marginellt bättre.
+Överlag har jag varit väldigt nöjd med min praktiktjänst och känner att min upplevelse har varit en perfekt chans att verkligen få känna på hur livet som webbutvecklare är. Redan första veckan började jag känna mig som en anställd och efter en kort tid därefter även att jag blev behandlad som en. Detta har varit något som jag gladeligen accepterat, men kan ändå inte undgå en något bitterljuv känsla av att min tid som student nått sitt slut. Sedan jag påbörjade detta programmet så har jag efter varje avklarad uppgift sett till att repetera den flera gånger. För varje repetition har jag lärt mig något nytt och känner att det varit en av de största bidragande faktorerna till att jag står där jag gör i dag. Under LIA-perioden har jag inte haft chans till detta eftersom pressen att ta en ny uppgift på sig när en annan är färdig alltid funnits där. Inte på ett dåligt sätt, utan mest bara för att det inte är ekonomiskt försvarbart inför kund att göra om något som faktiskt fungerar, och gör det väl, bara för att försöka uppnå något som är marginellt bättre.
 
 <br>
 
-Hos EC Solutions har jag fått träffa och lära känna människor med professionella bakgrunder inte bara inom webbutveckling, och har fått höra om många andra spännande utvecklingsområden. Redan innan praktiken började hade jag börjat bli nyfiken på fullstackutveckling, och nu när praktiken är över har jag kommit till insikt med att min nyfikenhet inte heller stannar där, utan omfattar utveckling generellt. Kanske vill jag till och med gå så långt att beskriva det som att den nyfikenheten som gjorde att jag lämnade in en sen anmälan sommaren innan jag påbörjade utbildningen, har nu växt till ett professionellt intresse.
+Hos EC Solutions har jag fått träffa och lära känna människor med professionella bakgrunder inte bara inom webbutveckling, och har fått höra om många andra spännande utvecklingsområden. Redan innan praktiken började hade jag börjat bli nyfiken på fullstackutveckling, och nu när praktiken är över har jag kommit till insikt med att min nyfikenhet inte heller stannar där, utan omfattar utveckling generellt. Kanske vill jag till och med gå så långt att beskriva det som att den novisa nyfikenheten som fick mig att lämna in en sen anmälan sommaren innan jag påbörjade utbildningen, har nu växt till ett professionellt intresse.
+
+<br>
+
+[*Till innehållsförteckningen*](#innehållsförteckning)
 
 <br>
 <br>
