@@ -39,7 +39,6 @@
 + [Simplr](#simplr)
 + [Veckoindelad Rapportering](#veckoindelad-rapportering)
   + [_Vecka 1_](#vecka-1)
-    + [Veckans Lärdommar](#veckans-lärdommar)
       + [End of Line](#end-of-line)
   + [_Vecka 2_](#vecka-2)
       + [Analys av Datumsträngar](#analys-av-datumsträngar)
@@ -174,9 +173,8 @@ _Frihet under ansvar_. Ett talesätt jag kom att tänka på medan första veckan
 
 <br>
 
- <!-- omit in toc -->
+<!-- omit in toc -->
 ### Veckans Lärdommar
-<br>
 
 #### End of Line
 
@@ -201,8 +199,7 @@ Genom Ubuntu ökades effektiviteten på Docker-Engine vilket gjorde att jag kund
 <br>
 
 <!-- omit in toc -->
-### Veckans Lärdommar 
-<br>
+### Veckans Lärdommar
 
 #### Analys av Datumsträngar
 `Date.parse()`-metoden som körs när ***du kallar på deklarerar*** ett ny instans av `Date`-klassen med ett strängargument, har [ett väldigt inkonsekvent beteende](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse) och fungerar exempelvis annorlunda i Safari jämfört med andra webbläsare. Därför bör alltid `Date`-konstruktorn kallas med nummer-argument för att vara säker på samma resultat oberoende av webbläsare. Fördelen med att göra detta är att webbläsarspecifik felhantering kan utelämnas.
@@ -285,7 +282,6 @@ Flödet motiverades i slutändan av viljan att ha en helt linjär historik över
 
 <!-- omit in toc -->
 ### Veckans Lärdommar
-<br>
 
 #### WYSIWYG - What you see is what you get
 
@@ -312,7 +308,6 @@ Att byta till en annan miljö var något utmanande eftersom att jag initialt var
 
 <!-- omit in toc -->
 ### Veckans Lärdommar
-<br>
 
 #### Clean Code with Uncle Bob
 
@@ -344,7 +339,6 @@ Genom att introducera parametrar såsom identifikationsnummer och söksträngar 
 
 <!-- omit in toc -->
 ### Veckans Lärdommar
-<br>
 
 #### Service Worker
 
@@ -378,7 +372,6 @@ Efter en del orientering hade jag funnit var och vad jag behövde för att genom
 
 <!-- omit in toc -->
 ### Veckans Lärdommar
-<br>
 
 #### Laravel
 
@@ -420,8 +413,7 @@ I övrigt så bestod arbetet av att bygga en egen kartkomponent runt [Google Map
 <br>
 
 <!-- omit in toc -->
-### Veckans Lärdommar 
-<br>
+### Veckans Lärdommar
 
 #### Floating-point error
 Då det som tidigare nämnts räknas mycket med koordinater när det gäller kartor, och dessa är `floats`, alltså flyttal, finns där då ett fenomen man bör vara medveten om som kan ställa till problem. Vilket det också gjorde i vårt fall. På grund av att dessa tal bearbetas av flera olika språk, i vårat fall JavaScript, PHP och SQL, och att dessa inte hanterar flyttal på exakt samma sätt så kan det bli problem där ett flyttal inte är ekvivalent efter det lagrats och sedan hämtats igen ifrån databasen. I vårt fall innebar det att datan för frisersalongerna inte skickades med i svaret. Lösningen på [detta komplexa problem](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html) var, som lösningar ofta är när grunden till problemet väl förståtts, återigen rätt så enkelt. Allt som krävdes var att begränsa antalet decimaler vi använde oss utav. Ett beslut som enkelt kunde tas eftersom vår applikation inte krävde en så stor precision.
