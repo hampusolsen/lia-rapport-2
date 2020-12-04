@@ -1,3 +1,7 @@
+*Studerande: Hampus Olsen* <br>
+*Handledare: Jonathan Lundström* <br>
+*Datum: 21/9 till och med 10/12 - 2020*
+
 <br/>
 <br/>
 <br/>
@@ -18,11 +22,10 @@
 <br/>
 <br/>
 
-# Innehållsförteckning <!-- omit in toc -->
+# LIA 1, Webbutveckling <!-- omit in toc -->
 
-+ [Sammanfattning](#sammanfattning)
 + [Inledning](#inledning)
-  + [Syfte och Mål](#syfte-och-mål)
+  + [Kursmål](#kursmål)
   + [Presentationsformat](#presentationsformat)
 + [Frontendutveckling hos EC Utbildning](#frontendutveckling-hos-ec-utbildning)
 + [EC Solutions &mdash; Trust the Experts!](#ec-solutions--trust-the-experts)
@@ -47,17 +50,7 @@
     + [Floating-point error](#floating-point-error)
   + [_Vecka 9 och 10_](#vecka-9-och-10)
 + [Diskussion](#diskussion)
-+ [Slutsats](#slutsats)
-
-<br>
-<br>
-
-# Sammanfattning
-<br>
-
-- Kommunkation, intern och extern
-- Manuell testning av kod
-- Lärande tar aldrig slut
++ [Utvärdering och Sammanfattning](#utvärdering-och-sammanfattning)
 
 <br>
 <br>
@@ -65,17 +58,42 @@
 # Inledning
 <br>
 
-## Syfte och Mål 
+Som en del av programmet Frontendutveckling ingår två LIA-perioder (*Lärande i Arbete*) som innebär praktiktjänstgöring ute hos företag, med syfte att samla arbetslivserfarenhet innan examination. Både för att få insikt i vad yrkesrollen faktiskt innebär efter skolbänken och att få använda de kunskaper som förvärvats genom utbildningen. Mina mål är att fördjupa mig ytterligare i hela webbutvecklingsprocessen generellt och React-biblioteket specifikt.
+
+<br>
 <br>
 
-Som en del av programmet Frontendutveckling ingår två LIA-perioder (Lärande i Arbete) som innebär praktiktjänstgöring ute hos företag, med syfte att samla arbetslivserfarenhet innan examination. Både för att få insikt i vad yrkesrollen faktiskt innebär efter skolbänken och att få använda de kunskaper som förvärvats genom utbildningen. Mina mål är att fördjupa mig ytterligare i hela webbutvecklingsprocessen generellt och React-biblioteket specifikt.
+## Kursmål
 
+De specifika målen med denna kurs tagna direkt ur kursmålsdokumentet:
+
+<br>
+
+**Efter genomförd kurs ska den studerande ha kunskaper i/om:**
+
+- I skissning av wireframe 
+- I projekthantering och kommunikation 
+- I utveckling av programvara 
+
+**Efter genomförd kurs ska den studerande ha färdigheter i att:**
+
+- Kunna tillämpa grafiska applikationer och layouter med HTML, CSS och JavaScript 
+- Självständigt tänka ut hur man gör för att förädla webbsidor med frontend tekniker  
+
+**Efter genomförd kurs ska den studerande ha kompetens för att:**
+
+- Få praktisk erfarenhet i att arbeta i arbetslivet med planering, utveckling och eget ansvarstagande 
+- Arbeta självständigt med utveckling i HTML, JavaScript och CSS   
+- Utveckla professionellt förhållningssätt till sitt kommande yrke genom direkta erfarenheter i arbetslivet. 
+
+
+<br>
 <br>
 
 ## Presentationsformat
 <br>
 
-Min rapportering av tiden hos EC Solutions är presenterat veckovis. Varje rapport består av en omfattande summering av veckan som varit. I slutet av varje veckorapport inkluderas under egna rubriker kortare analyser, reflektioner, eller presentationer relevanta till veckan som gått.
+Min rapportering av tiden hos EC Solutions presenteras veckovis. Varje veckorapport består av en omfattande summering av veckan som varit. Följande inkluderas det under egna rubriker kortare analyser, reflektioner, eller presentationer relevanta till veckan som gått.
 
 Rapporten är skriven i språket [Markdown](https://www.markdownguide.org/getting-started/) som är ett formateringsspråk för textdokument. Till skillnad från textredigeringsprogram som Microsoft Word och Apache Open Office där du ändrar inställningar för formatering genom att klicka på knappar, välja från en rullgardinslista eller kryssa i en checklista, så [används speciella tecken för att definiera formatering](https://www.markdownguide.org/basic-syntax/). Detta är en industristandard för att skriva både dokumentation och rapporter inom, men inte begränsat till, systemutveckling. Formateringen är även populär bland bloggare och författare [eftersom det är plattformsagnostiskt](https://www.markdownguide.org/getting-started/#why-use-markdown), eftersom det i grunden bara är vanlig text.
 
@@ -88,15 +106,8 @@ Två stora fördelar som ofta nämns är just att det går att öppna och redige
 <br>
 
 [Kreativitet, glädje och resultat](https://www.ecutbildning.se/om-ec/). Med dessa värdeord som grund strävar EC Utbildning att på bästa sätt förbereda intagna studenter för sina framtida yrkesroller. Genom kontinuerlig utvärdering och revidering av kursplaner och en nära relation till näringslivet kan bolaget försäkra sig om att elever får de kunskaper som efterfrågas i dagsläget. Ett smart drag som oftast leder till snabb anställning efter examen.
-  
-<!-- @todo beskriv programinnehåll- -->
 
-När jag lämnade in en sen anmälan under sommaren 2019 förstod jag inte hur lite jag visste om frontendutveckling, eller hur mycket jag skulle komma att få lära mig under det kommande året. Men vad jag visste efter att jag fick mitt positiva antagningsbesked var att jag verkligen ville dedikera min studietid åt att bli duktig på det. Vad som höll min motivation uppe var att jag konstant utmanades av ett högt men ändå hanterbart tempo, ett relevant kursmaterial och våra föreläsare, både kunniga och roliga.
-
-**Efter LIA-perioden var över stod mitt mål oförändrat. Jag ville fortfarande bli så duktig jag möjligtvis kunde bli. Den stora skillnaden var att jag hade en klar bild över både hur lite jag visste, och hur mycket jag faktiskt hade lärt mig.**
-
-<!-- @TODO nyfikenhet -> intresse -->
-<!-- @TODO webbutveckling -> systemutveckling -->
+När jag lämnade in en sen anmälan under sommaren 2019 förstod jag inte hur lite jag visste om frontendutveckling, eller hur mycket jag skulle komma att få lära mig under det kommande året. Men vad jag visste efter att jag fick mitt positiva antagningsbesked var att jag verkligen ville dedikera min studietid åt att bli duktig på det. Vad som höll min motivation uppe detta gångna år var att jag konstant utmanades av ett högt men ändå hanterbart tempo, ett relevant kursmaterial och våra föreläsare, både kunniga och roliga.
 
 <br>
 <br>
@@ -122,11 +133,11 @@ Inhouseavdelningen är mångsysslare som håller på med allt inom webbutvecklin
 # Simplr
 <br>
 
-Företagets affärsidé är att bistå och sköta bland annat ***frisersalonger*** där stolar kan bokas av frisörer för att utföra sitt arbete. Detta ger en stor frihet för frisörer som slipper allt ansvar och administration som rör lokaler, betalning och marknadsföring bland annat, i utbyte mot en avgift för varje utförd klippning.
+Företagets affärsidé är att bistå och sköta bland annat frisersalonger där stolar kan bokas av frisörer för att utföra sitt arbete. Detta ger stor frihet för frisörer som slipper allt ansvar och administration som rör lokaler, betalning och marknadsföring bland annat, i utbyte mot en avgift för varje utförd klippning.
 
-Projektet jag har varit delaktig i under hela perioden är en progressiv webbapplikation åt det nystartade företaget [Simplr, ett systerbolag till Gents](https://simplr.se/about). Vi arbetade tillsammans med Gents utvecklingslag inför lanseringen av applikationens betaversion och de ansvarar för produktionssättningen av de fixar och funktioner vi implementerar. ***Projektet*** och majoriteten av kodbasen på plats när jag kom in i projektet togs över efter en polsk firma som inte hade kunnat leverera i tid. Dessvärre var produkten inte bara långt ifrån färdig, utan det som producerats var undermåligt.
+Projektet jag har varit delaktig i under hela perioden är en progressiv webbapplikation åt det nystartade företaget,  [ett systerbolag till Gents](https://simplr.se/about). Vi arbetade tillsammans med Gents utvecklingslag inför lanseringen av applikationens betaversion och de ansvarar för produktionssättning av den kod vi implementerar. Majoriteten av kodbasen på plats när jag kom in i projektet togs över efter en polsk firma. Dessvärre var produkten inte bara långt ifrån färdig, utan det som hade producerats var också undermåligt.
 
-Där rådde ingen officiellt etablerad arbetsprocess, utan det som gällde var att på snabbast sätt få ut en MVP-version (_Minimum viable product_) av produkten.
+Där rådde initialt ingen officiellt etablerad arbetsprocess, utan det som gällde var helt enkelt att leverera en MVP-version (_Minimum viable product_) av produkten.
 
 <br>
 <br>
@@ -139,27 +150,25 @@ Där rådde ingen officiellt etablerad arbetsprocess, utan det som gällde var a
 
 Veckan innan jag började hade jag fått en generell beskrivning av projektet jag initialt kom att arbeta med: 
 
-> _"... onödigt komplexa abstraktionslager, fylld av buggar och går ut i produktion nästa måndag."_
+> "... onödigt komplexa abstraktionslager, fylld av buggar och går ut i produktion nästa måndag."
 
 <br>
 
-_"Kul,"_ tänkte jag direkt.
+*"Kul,"* var min första tanke samtidigt som en nervositet byggdes upp inombords.
 
-Måndagen började med att jag, guidad av min handledare, skulle sätta upp utvecklingsmiljön på min dator så att jag kunde tilldelas *tasks* från kanban-brädan på Trello. Eftersom att jag var den enda i arbetslaget som använde operativsystemet Windows fanns där en hel del saker som inte fungerade med konfigurationen av utvecklingsmiljön. Tillsammans med en senior kollega betades fel efter fel av fram tills att vi fått igång både backend och klient. Som bonus kunde vi dessutom dela med till produktägaren och projektledaren vad för slags ändringar av konfigurationen som krävdes. Skulle där i framtiden komma in fler utvecklare med Windows skulle de i så fall inte stöta på samma problem.
+Måndagen började med att jag, guidad av en senior kollega, skulle sätta upp utvecklingsmiljön på min dator så att jag kunde börja beta av uppgifter från kanban-brädet på Trello. Eftersom att jag var den enda i arbetslaget som använde operativsystemet Windows, visade det sig finnas en hel del saker som inte fungerade med konfigurationen av utvecklingsmiljön. En av de större huvudbryerna handlade om hur tolkning av radändelser skiljde sig åt mellan de olika systemen. Tillsammans löste vi fel efter fel av fram tills att vi fått igång både backend och klient. Som bonus besatt vi nu kunskap om vad för slags ändringar av konfigurationen som krävdes. Skulle där i framtiden komma in fler utvecklare med Windows skulle de i så fall inte behöva spendera lika mycket tid på operativsspecifika problem innan de kommer igång.
 
-Resten av dagen spenderade jag med att sätta mig in i projektets arkitektur eftersom kodens abstraktionsgrad var väldigt hög, vilket var en av orsakerna till dess komplexitet. Exempelvis var komponenternas namngivelser otydliga samtidigt som koden var extremt uppdelad utan att vara generaliserad. Så för att göra något väldigt enkelt var man tvungen att ändra lite kod i väldigt många filer.
+Resten av dagen spenderade jag med att sätta mig in i projektets arkitektur. Eftersom kodens abstraktionsgrad var väldigt hög, en av orsakerna till dess höga komplexitet, tog detta resten av dagen. Namngivelser var väldigt otydliga samtidigt som komponenter ofta gav sken att vara generiska, men kunde i själva verket inte användas på mer än ett eller två specifika ställen. Så för att göra väldigt enkla justeringar var man ofta tvungen att ändra kod i väldigt många filer.
 
-På tisdagen började jag ta på mig uppgifter från kanban-brädet, och därefter rullade veckan på rätt så bra för min del och bestod mestadels av att skriva enkla algoritmer, fixa buggar och att förbättra användareupplevelsen med hjälp av att implementera ny gränssnittsdesign.
+På tisdagen började jag ta på mig uppgifter från kanban-brädet, och därefter rullade veckan på rätt så bra och bestod mestadels av att skriva enklare algoritmer, fixa buggar och att förbättra användareupplevelsen med hjälp av att implementera ny gränssnittsdesign. Efter en tuff men väldigt intressant första vecka så var produkten på fredagen stabil nog att en demo kunde visas upp för slutkunder på måndagen.
 
-_Frihet under ansvar_; ett talesätt jag kom att tänka på medan första veckan led mot sitt slut. Ett talesätt som kom att prägla resten av LIA-perioden.
-
-Efter en slitsam vecka med långa dagar så var produkten på fredagen stabil nog att en demo kunde visas upp för slutkunder på måndagen.
+_Frihet under ansvar_. Ett talesätt jag kom att tänka på medan första veckan led mot sitt slut. Ett talesätt som kom att prägla resten av LIA-perioden.
 
 <br>
 
 ### End of Line
 
-Med _end of line_ syftar man som namnet tyder på en radändelse. Det är viktigt att känna till detta eftersom radändelser fungerar olika på olika system, och kan skapa stora och svårfunna problem exempelvis när ett operativsystem med UNIX-kärna ska köra en shell-fil skriven i ett operativsystem med DOS-kärna.
+Med _end of line_ syftar man på, som namnet tyder, en radändelse. Det är viktigt att känna till detta eftersom radändelser fungerar olika på olika system, och kan skapa stora och svårfunna problem exempelvis när ett operativsystem med UNIX-kärna ska köra en shell-fil skriven i ett operativsystem med DOS-kärna.
 
 <br> 
 <br>
@@ -169,9 +178,9 @@ Med _end of line_ syftar man som namnet tyder på en radändelse. Det är viktig
 
 Den andra veckan började som den första slutade. Jag fortsatte med att hjälpa till och avverka uppgifter som låg i prio-listan på Trello, samtidigt som jag vidareutvecklade föregående funktionalitet jag lagt till så fort feedback kom tillbaka på dem. Något som jag tyckte var mycket nyttigt och ofta snabbt kunde lösa.
 
-Mot veckans slut hade jag tröttnat rejält på att min dator var så oerhört långsam. Under hela tiden fram tills nu så låg datorns minneskonsumption på 95~99% medan jag arbetade på projektet, och listade då ut att det var Docker-Engine som var boven i dramat. Jag lade temporärt arbetet åt sidan för att kunna felsöka problemet, så att jag senare kan arbeta mer effektivt. Windows Subsystem for Linux studerades noggrant, systemet som möjliggör så att Docker kan köras på Windows, och kom fram till att lösningen på problemet var tvådelat: installera Ubuntu som är ett operativsystem för Linux och strypa de resurser som Docker har tillgång till.
+Mot veckans slut hade jag tröttnat rejält på att min dator var så oerhört långsam. Under hela tiden fram tills nu så låg datorns minneskonsumtion på 95~99% medan jag arbetade på projektet, och fann då att det var Docker-Engine som var boven i dramat. Jag lade temporärt arbetet åt sidan för att kunna felsöka problemet, så att jag därefter kunde arbeta mer effektivt. Windows Subsystem for Linux studerades noggrant, systemet som möjliggör så att Docker kan köras på Windows, och kom fram till att lösningen på problemet var tvådelat: installera Ubuntu som är ett operativsystem för Linux och strypa de resurser som Docker har tillgång till.
 
-Genom Ubuntu ökades effektiviteten på Docker-Engine vilket gjorde att jag kunde begränsa minnet och antalet processorkärnor som motorn kunde använda sig av _**utan**_ att tappa prestanda på utvecklingsservern, och efter det var min effektivitet inte begränsad av datorns kapacitet längre. Vilket kommer spara mig många timmar och frustration under resten av LIA-perioden.  
+Genom Ubuntu ökades effektiviteten på Docker-Engine vilket gjorde att jag kunde begränsa minnet och antalet processorkärnor som motorn kunde använda sig av ***utan*** att tappa prestanda på utvecklingsservern, och efter det var min effektivitet inte begränsad av datorns kapacitet längre. Vilket kommer spara mig många timmar och frustration under resten av LIA-perioden.  
 
 <br>
 
@@ -328,13 +337,14 @@ Ramverket består av många delar som tillsammans bildar en komplett verktygslå
 ## _Vecka 7 och 8_
 <br>
 
-Efter mycket bollande mellan kunden, UX/UI-designer, och vår egen Tech Lead, kom ett slutgiltig prototyp av appens nya kartvy. Precis som allt annat i kodbasen var även denna vy med sammanhörande komponenter skrivna på ett omodernt, otydligt och ineffektivt sätt. Exempelvis gjordes det onödigt många anrop vid instantiering eftersom att vyn renderades utan att vänta in populering av grundläggande data, och presentationen av tillgängliga bokningstider var inte byggt på ett sätt som gjorde användningen intuitivt. Där fanns alltså skäl till att göra om allt, och med tanke på renoveringens omfattning så kunde vi nu börja avvika från den arkitektur som präglade projektet.
+Efter mycket bollande mellan kund, UX/UI-designer, och vår Tech Lead, kom en slutgiltig prototyp av appens nya kartvy. Precis som allt annat i kodbasen var även denna vy med sammanhörande komponenter skrivna på ett omodernt och otydligt sätt. Exempelvis gjordes det onödigt många anrop vid instantiering. Ett problem grundat i att vyn renderades utan att vänta in grundläggande data, som vid populering triggade en omrendering av hela appen. Även presentationen av tillgängliga bokningstider var inte byggt på ett sätt som gjorde användningen intuitivt. Där fanns alltså skäl till att göra om allt, och med tanke på renoveringens omfattning så kunde vi nu börja avvika från den arkitektur som präglade projektet.
 
 <br>
 <br>
 
 <p align="center">
-  <img src="./resources/map-view-prototypes.png" width="80%"><br/>
+  <img src="./resources/map-view-prototypes.png" width="80%">
+  <br/>
   <em style="font-size:12px">Prototyper för kartvyns olika tillstånd.</em>
 <p>
 
@@ -370,9 +380,9 @@ Då det som tidigare nämnts räknas mycket med koordinater när det gäller kar
 ## _Vecka 9 och 10_
 <br>
 
-Näst sista veckan som rapporteras inledde med mindre korrigeringar för kartvyn. En dålig vana under projektets gång är lansering av uppdateringar på fredagseftermiddagar. Utan testning i någon *staging*-miljö. Något som bjuder in till oförutsägbara beteenden och buggar.
+Näst sista veckan som rapporteras inledde med mindre korrigeringar för kartvyn. En dålig vana under projektets gång har varit lansering av uppdateringar på fredagseftermiddagar. Detta har gjorts utan testning i någon *staging*-miljö, vilket resulterat i oförutsägbara beteenden och buggar.
 
-Utöver det ägnades den sista tiden till största del åt ytterligare en stor uppgift. En total omarbetning av sök- och filtreringssidan för tillgängliga klipptider. Precis som i föregående uppgift med kartvyn så fanns där mockups för UI, och planen var att skriva om till funktionskomponenter och att använda *hooks*. Även här vävde jag in URL-driven rendering så att det går att länka till specifika sökningar. Dock så var beteenden och funktionalitet inte tydligt definierada, och jag fick därför vid ett flertel tillfällen efterfråga dessa. Ett par gånger ändrades även rätt så grundläggande krav vilket resulterade i en del omskrivningar av logik.
+Utöver det ägnades den sista tiden till största del åt ytterligare en stor uppgift. En total omarbetning av sök- och filtreringssidan för tillgängliga klipptider. Precis som i föregående uppgift med kartvyn så fanns där mockups för UI och planen var att skriva om även dessa till funktionskomponenter och att använda *hooks*. Även här vävde jag in URL-driven rendering så att det går att länka till specifika sökningar. Dock så var beteenden och funktionalitet inte tydligt definierade, och jag fick därför vid ett flertel tillfällen efterfråga dessa. Ett par gånger ändrades även rätt så grundläggande krav vilket resulterade i en del omskrivningar av den nya logiken.
 
 <br>
 <br>
@@ -388,17 +398,14 @@ Utöver det ägnades den sista tiden till största del åt ytterligare en stor u
 
 Det bestämdes även att vi skulle gå över till att använda [Material UI](https://material-ui-pickers.dev/getting-started/installation):s moduler för val av tid och datum. Att införa Material UI är ett val som tog vår total av olika kalenderbibliotek till tre stycken, i en redan väldigt spretig `package.json`-fil. Just nu finns där inga uttalade planer för att banta bort de tidigare implementationerna, men det är något jag antar kommer att göras i framtiden.
 
-Uppgiften innebar väldigt mycket logik. Allt från sortering och filtrering, till datastrukturering och optimering. För all denna logik krävs mycket kod. Så för att smalna av komponenterna som hanterar renderingen så mycket som möjligt, skapade jag flera skräddarsydda hooks för att separera de två åt. En är jag särskilt stolt över och kommer bära den med mig till framtida projekt, med mindre justeringar. Det är en enkel men användbar hook som hämtar och alternativt lyssnar på positionsändringar hos användarens enhet. Den returnerar sedan antingen ett objekt med koordinater eller `undefined` om de inte skulle gå att hämta, eller om användaren nekar åtkomst till funktionen.
+Uppgiften innebar en hel del logik. Allt från sortering och filtrering till datastrukturering och optimering. För all denna logik krävs mycket kod. Så för att smalna av komponenterna som hanterar renderingen så mycket som möjligt skapade jag flera skräddarsydda hooks för att separera de två åt. En är jag särskilt stolt över och kommer bära den med mig till framtida projekt, med mindre justeringar. Det är en enkel men användbar hook som hämtar och alternativt lyssnar på positionsändringar hos användarens enhet. Den returnerar sedan antingen ett objekt med bland annat koordinater eller `undefined` om de inte skulle gå att hämta, eller om användaren nekar åtkomst till funktionen.
 
 <br>
 <br>
+
+*Egenskapad hook för enkel återanvändning av Geolocation API:et*
 
 ```typescript
-import { useEffect, useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { RootState } from '../../modules/state';
-import { GeolocationActions } from '../../modules/Geolocation/actions';
-
 interface UseGeolocationOptions {
     watchPosition: boolean;
     positionOptions: PositionOptions;
@@ -412,42 +419,45 @@ const defaultOptions: UseGeolocationOptions = {
     },
 };
 
+interface UseGeolocationState {
+  isLoading: boolean;
+  hasError: boolean;
+  coordinates?: Coordinates;
+}
+
+const initialState: UseGeolocationState {
+  isLoading: true,
+  error: PositionError,
+};
+
 export const useGeolocation = ({
     watchPosition,
     positionOptions,
 } = defaultOptions) => {
-    const [watcherId, setWatcherId] = useState<number>();
-    const dispatch = useDispatch();
-    const userPosition = useSelector(
-        (state: RootState) => state.userPosition.coords,
-    );
-
-    function saveUserPosition(coords: Coordinates) {
-        dispatch(
-            GeolocationActions.getUserPositionSuccess({
-                coords: {
-                    lat: coords.latitude,
-                    lng: coords.longitude,
-                },
-            }),
-        );
+    const watcherId = useRef<number | undefined>();
+    const [state, setState] = useState(initialState);
+    
+    function onError(error: PositionError) {
+      setState((state) => ({ ...state, error, isLoading: false }));
     }
 
-    function onGetCurrentSuccess({ coords }: Position) {
-        saveUserPosition(coords);
+    function onSuccess({ coords }: Position) {
+        setState((state) => ({
+            ...state,
+            isLoading: false,
+            coordinates: coords,
+          }));
 
-        if (watchPosition) {
-            const watcherId = navigator.geolocation.watchPosition(
+        if (watchPosition && !watcherId.current) {
+            watcherId.current = navigator.geolocation.watchPosition(
                 ({ coords }: Position) => {
-                    saveUserPosition(coords);
+                    setState((state) => { ...state, coordinates: coords });
                 },
+                onError,
+                positionOptions,
             );
-
-            setWatcherId(watcherId);
         }
     }
-
-    function onError() {}
 
     useEffect(() => {
         if (navigator.geolocation) {
@@ -459,11 +469,14 @@ export const useGeolocation = ({
         }
 
         return () => {
-            if (watcherId) navigator.geolocation.clearWatch(watcherId);
+            if (watcherId.current) {
+              navigator.geolocation.clearWatch(watcherId.current);
+              watcherId.current = undefined;
+            }
         };
     }, []);
 
-    return userPosition;
+    return state;
 };
 
 ```
@@ -471,7 +484,7 @@ export const useGeolocation = ({
 <br>
 <br>
 
-När den nya vyn var färdig att testas av kund så var vi tydliga från vårt håll med att den inte skulle produktionssättas direkt, utan testas av flera personer för att se så användandet är exakt som önskat. Speciellt med tanke på hur otydlig kommunikationen har varit kring just det. Medan feedback inväntades så arbetade jag vidare med optimering, tydlig namngivning och att dela upp kod på ett logiskt sätt.
+När den nya vyn var färdig att testas av kund så var vi tydliga från vårt håll med att den inte skulle produktionssättas direkt, utan testas för att se så användandet var som önskat. Detta, främst med tanke på att denna vy är en av applikationens mer centrala delar och kommunikationen inte varit tydlig. Medan feedback inväntades så arbetade jag vidare med optimering, namngivning och att dela upp kod på ett logiskt sätt.
 
 <br>
 <br>
@@ -479,6 +492,27 @@ När den nya vyn var färdig att testas av kund så var vi tydliga från vårt h
 # Diskussion
 <br>
 
+En av de absolut mest vitala delar i ett företag, oavsett bransch, är kommunikation. Systemutveckling är inget undantag. [Kommunikation inom företagande brukar delas upp i två kategorier](https://keydifferences.com/difference-between-internal-and-external-communication.html); både en intern och en extern dialog fördes kontinuerligt under hela perioden. Var kategori av kommunikation kan också föras i flera riktningar, och i varierad ton. Ett faktum som varken överraskade eller gjorde mig obekväm, då jag har mycket kommunikativ erfarenhet från tidigare yrkesroller. Det som däremot var helt nytt för mig var hur det används inom denna bransch, och speciellt hos EC Solutions.
+
+Någonting jag kontiuerligt tänkt på har varit just tidsestimering; jag har ofta försökt ge en så exakt tidsram för mina uppgifter som jag har kunnat, baserat på att allt kommer flyta på väl och jag inte stöter på några problem. Men framtiden är ofta oförutsägbar. Det kan dyka upp saker utanför ens kontroll, något man glömt räkna med, eller så presterar man helt enkelt inte alltid till ens fulla kapacitet. Att estimera optimistiskt är [ett drag jag inte är ensam om](https://apps.dtic.mil/dtic/tr/fulltext/u2/a047747.pdf), men som ändå riskerar att ha reflekterat illa på EC Solutions, vilka jag representerade under min tid där.
+
+I mina tidigare yrkesroller har det nästan alltid varit betydligt viktigare att ge kunder ett positivt och snabbt svar, mer än ett korrekt. Det är till och med något som har uppmanats. För det har i det långa loppet varit betydligt mer givande, samtidigt som det ofta har funnits enkla och logiska ursäkter att försvara sig med om något gick fel. Exempelvis som att en produkt har restat hos en leverantör eller att man har fått felaktig information. Men under denna LIA-perioden har jag successivt förstått att det är inte ett beteende som ligger i linje med företagets kultur, eller den bild de vill visa utåt. Självfallet är det fortfarande alltid önskvärt att kunna ge ett positivt och snabbt svar, men inte på bekostnad av korrekthet. Skulle en osäker respons ges så bör detta göras på ett tydligt och transparent sätt, efter att först ha diskuterats internt. Detsamma gäller med att ställa frågor till kund. I stället för att direkt gå till kunden så är det betydligt bättre att ställa frågan inom företaget först, eftersom chansen finns att det är någon som redan vet svaret. Kanske har frågan redan besvarats tidigare, vilket skulle ge sken av att vi inte för någon horisontell dialog, eller att vi inte skulle haft läget under kontroll. Något som skulle kunna skapa en olustig känsla hos kunden, eller rent av förminska vårt förtroende hos dem.
+
+Genom ett aktivt deltagande i och reflektion över kommunikationen så har jag på ett väldigt naturligt sätt nått inte bara många av de mål som var utstakade för kursen, utan även ett av mina egna mål. Att få ha medverkat i hela utvecklingsprocessen har givit mig precis den inblick jag initialt hoppas på att kunna få. Vad gäller de resterande kursmålen har de gott och väl täckts av det dagliga arbetet.
+
+Däremot har jag inte fördjupat mig ytterligare i React-biblioteket, vilket var ett av mina två personliga mål, även om arbetet har gjort mig betydligt mer säker i implementeringen av det. Men med tanke på hur mycket annat jag lärt mig om utveckling generellt så har jag valt att inte se det som en förlust, utan endast som en annorlunda seger.
+
+<br>
 <br>
 
-# Slutsats
+# Utvärdering och Sammanfattning
+<br>
+
+Överlag har jag varit väldigt nöjd med min praktiktjänst och känner att min upplevelse har varit en perfekt schans att verkligen få känna på hur livet som webbutvecklare är. Redan första veckan började jag känna mig som en anställd och efter en kort tid därefter även att jag blev behandlad som en. Detta har varit något som jag gladeligen accepterat, men kan ändå inte undgå en något bitterljuv känsla av att min tid som student nått sitt slut. Sedan jag påbörjade detta programmet så har jag efter varje avklarad uppgift sett till att repetera den flera gånger. För varje repetition har jag lärt mig något nytt och känner att det varit en av de största bidragande faktorerna till att jag står där jag gör i dag. Under LIA-perioden har jag inte haft chans till detta eftersom pressen att ta en ny uppgift på sig när en annan är färdig alltid funnits där. Inte på ett dåligt sätt, utan mest bara för att det inte är ekonomiskt försvarbart inför kund att göra om något som faktiskt fungerar, och gör det väl, bara för att försöka uppnå något som är marginellt bättre.
+
+<br>
+
+Hos EC Solutions har jag fått träffa och lära känna människor med professionella bakgrunder inte bara inom webbutveckling, och har fått höra om många andra spännande utvecklingsområden. Redan innan praktiken började hade jag börjat bli nyfiken på fullstackutveckling, och nu när praktiken är över har jag kommit till insikt med att min nyfikenhet inte heller stannar där, utan omfattar utveckling generellt. Kanske vill jag till och med gå så långt att beskriva det som att den nyfikenheten som gjorde att jag lämnade in en sen anmälan sommaren innan jag påbörjade utbildningen, har nu växt till ett professionellt intresse.
+
+<br>
+<br>
