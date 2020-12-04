@@ -298,7 +298,7 @@ En fras som kanske inte alltid kopplas samman med systemutveckling. I detta fall
 ## _Vecka 4_ 
 <br>
 
-Under denna veckan var jag rätt så sjuk tre av dagarna, men eftersom alla jobbar hemifrån gick det ändå bra och jag fick gjort mycket under omständigheterna. Tech Lead sade åt mig att vila om det började kännas för tungt, vilket det ibland gjorde med en rejäl snuva och tung huvudvärk. Dessa stunder lyssnade jag på podcasts eller såg på föreläsningar som hade med programmering att göra, varav två som jag starkt rekommenderat till resten av mina kurskamrater.
+Under denna veckan var jag rätt så sjuk tre av dagarna, men eftersom alla jobbar hemifrån gick det ändå bra och jag fick gjort mycket under omständigheterna. Tech Lead sade åt mig att vila om det började kännas för tungt, vilket det ibland gjorde med en rejäl snuva och huvudvärk. Tidigare hade en senior kollega tipsat mig om några föreläsningar, så de stunder jag inte kände mig kapabel att jobba lyssnade jag på podcasts eller såg på föreläsningar. Varav två som jag starkt rekommenderat vidare till resten av mina kurskamrater.
 
 Jag spenderade även mycket tid med att övergå till en ny utvecklingsmiljö (_IDE: Integrated Development Environment_), [PhpStorm](https://www.jetbrains.com/phpstorm/), som _out-of-the-box_ är mer lämpat för programmering i språket _PHP_ jämfört med Visual Studio Code vilket jag är van vid. PHP var en sak jag uttryckt intresse av att få sätta mig in i när det ansågs finnas tid till det. Detta  eftersom ett populärt backendramverk som ofta används är skrivet i just detta språk. 
 
